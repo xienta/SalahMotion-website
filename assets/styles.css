@@ -239,7 +239,9 @@ section { padding: 60px 0; }
   -webkit-backdrop-filter: blur(10px) saturate(120%);
 }
 .prelaunch-card { text-align: center; max-width: 560px; }
-.prelaunch-mark { height: 28px; width: auto; margin: 0 auto 28px; display: block; }
+.prelaunch-mark { height: 28px; width: auto; margin: 16px auto 16px; display: block; }
+.prelaunch-card .eyebrow { margin-bottom: 2px; }
+.prelaunch-basmala { font-family: var(--arabic); font-size: clamp(1.1rem, 3.5vw, 1.8rem); line-height: 1.6; color: var(--night-ink); margin: 0 0 14px; }
 .prelaunch-card h1 { font-size: clamp(2rem, 6vw, 3.4rem); line-height: 1.08; margin: 0 0 16px; }
 .prelaunch-card h1 .violet { color: var(--night-violet); }
 .prelaunch-card p:last-child { color: var(--night-muted); margin: 0; }
