@@ -237,14 +237,14 @@ section { padding: 60px 0; }
   display: grid; place-items: center; padding: 24px;
   background:
     linear-gradient(rgba(11, 10, 20, 0.35), rgba(11, 10, 20, 0.35)),
-    url("img/prelaunch-desktop.jpg") center / cover no-repeat,
+    url("img/prelaunch-desktop.jpg?v=2") center / cover no-repeat,
     var(--night-edge);
 }
 @media (max-width: 640px) {
   .prelaunch {
     background:
       linear-gradient(rgba(11, 10, 20, 0.35), rgba(11, 10, 20, 0.35)),
-      url("img/prelaunch-mobile.jpg") center top / cover no-repeat,
+      url("img/prelaunch-mobile.jpg?v=2") center top / cover no-repeat,
       var(--night-edge);
   }
 }
